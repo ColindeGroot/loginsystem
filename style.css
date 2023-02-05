@@ -1,0 +1,57 @@
+html{
+        font-size: 62.5%;
+        font-family: 'Apercu', sans-serif;
+}
+body {
+    background: #c5b5c2;
+}
+.form {
+    margin: 5rem auto;
+    width: 30rem;
+    padding: 3rem 2,5rem;
+    background: white;
+}
+h1.login-title {
+    color: #eee;
+    margin: 0rem auto 2,5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+.login-input {
+    font-size: 1,8rem;
+    border: 0.2rem solid rgb(255, 148, 55);
+    padding: 1rem;
+    margin-bottom: 2,5rem;
+    height: 2,5rem;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#e68318;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #da731f;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 8rem;
+    font-size: 1,8rem;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #eee;
+    font-size: 1,5rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+.link a {
+    color: #1f83da;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+    font-weight: 300;
+}
